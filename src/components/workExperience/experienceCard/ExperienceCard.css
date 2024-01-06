@@ -3,7 +3,7 @@
     border-radius: 0.65rem;
     border: 0.3rem solid #6751b9;
     padding: 1.5rem;
-    margin: 0 1rem;
+    margin: 0.2rem 1rem;
 }
 .work-experience-card h6{
     font-size: 1.05rem;
@@ -35,4 +35,15 @@
     position: absolute;
     left: -1.3rem;
     top: 0.35rem;
+}
+@media(max-width:768px){
+    .work-experience-card{
+        margin: 0;
+    }
+    .work-experience-card h6{
+        font-size: 0.95rem;
+    }
+    .work-experience-card ul li{
+        font-size: 0.75rem;
+    }
 }
