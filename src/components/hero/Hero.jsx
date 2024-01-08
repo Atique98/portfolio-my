@@ -23,11 +23,13 @@ const Hero = () => {
               />
             </div> */}
             <img
-              src="./assets/images/boy.avif"
+              // src="./assets/images/boy.avif"
+              src="./assets/images/my-image.jpeg"
               alt="image"
+             
               width="300px"
               height="450px"
-              style={{ borderRadius: "30px" }}
+              style={{ borderRadius: "30px", filter: 'blur(1px)' }}
             />
           </div>
           <div className="hero-image-icons">

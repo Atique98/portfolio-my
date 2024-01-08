@@ -80,7 +80,7 @@
 }
 .tech-img > div > img:hover,
 .tech-icon img:hover{
-   transform:translateY(-0.5rem)
+   transform:translateY(-0.2rem)
 }
 
 @media (max-width:1025px){

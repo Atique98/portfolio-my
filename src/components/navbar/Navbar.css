@@ -1,11 +1,37 @@
-.nav-wrapper {
+/* .nav-wrapper {
   background: rgba(0, 0, 0, 0);
   padding: 0.5rem 0;
   position: sticky;
   top: 0;
   z-index: 30;
   backdrop-filter: blur(50px);
+} */
+
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  backdrop-filter: blur(50px);
+  transition: all 0.3s ease;
+  opacity: 1;
 }
+
+.nav-wrapper.visible {
+  opacity: 1; 
+}
+
+.nav-wrapper.hidden {
+  opacity: 0; 
+  padding: 0 0;
+}
+.nav-wrapper.visible:hover {
+  opacity: 1; 
+}
+
+
+
 .nav-content {
   max-width: 1300px;
   display: flex;
