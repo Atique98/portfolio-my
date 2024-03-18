@@ -1,56 +1,3 @@
-// import React, { useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-// import MobileNav from "./mobilNav/MobileNav";
-// import "./Navbar.css";
-
-// const Navbar = () => {
-//   const [openMenu, setOpenMenu] = useState(false);
-
-//   const toggleMenu = () => {
-//     setOpenMenu(!openMenu);
-//   };
-//   console.log(openMenu);
-
-//   return (
-//     <>
-//       <MobileNav
-//        isOpen={openMenu} toggleMenu={toggleMenu}
-//         />
-
-//       <nav className="nav-wrapper">
-//         <div className="nav-content">
-//           <h2 className="stylish-text">Atique</h2>
-//           <ul>
-//             <li>
-//               <a className="menu-item">Home</a>
-//             </li>
-//             <li>
-//               <a className="menu-item">Skills</a>
-//             </li>
-//             <li>
-//               <a className="menu-item">Work Experience</a>
-//             </li>
-//             <li>
-//               <a className="menu-item">Contact Me</a>
-//             </li>
-//             <button className="contact-button" onClick={() => {}}>
-//               Hire Me
-//             </button>
-//           </ul>
-//           <button className="menu-btn" onClick={toggleMenu}>
-//             <FontAwesomeIcon
-//               icon={openMenu ? faTimes : faBars}
-//               style={{ fontSize: "1.8rem" }}
-//             />
-//           </button>
-//         </div>
-//       </nav>
-//     </>
-//   );
-// };
-
-// export default Navbar;
 
 // import { Link as RouterLink } from "react-router-dom"; 
 import React, { useState, useEffect } from "react";
@@ -100,7 +47,7 @@ const Navbar = () => {
 
   return (
     <>
-      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+      {/* <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} /> */}
 
       <nav
         className={`nav-wrapper ${showNavbar ? "visible" : "hidden"}`}
@@ -134,12 +81,12 @@ const Navbar = () => {
               Hire Me
             </button>
           </ul>
-          <button className="menu-btn" onClick={toggleMenu}>
+          {/* <button className="menu-btn" onClick={toggleMenu}>
             <FontAwesomeIcon
               icon={openMenu ? faTimes : faBars}
               style={{ fontSize: "1.8rem" }}
             />
-          </button>
+          </button> */}
         </div>
       </nav>
     </>
